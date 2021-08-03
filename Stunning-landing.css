@@ -1,0 +1,151 @@
+*{
+     text-decoration:none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    width:90%;
+    margin:auto;
+}
+
+.stunning-logo img{
+    width:120px;
+}
+
+.nav-wrapper{
+    display:flex;
+    justify-content: space-between;   
+}
+
+.head-item:hover {
+    text-decoration: underline 4px #8071d0;
+    color:black;
+}
+
+.heading-text{
+    font-weight:800;
+    font-size: 100px;  
+}
+
+.head-item{
+    margin-left: 50px;
+    color:rgb(105, 100, 100);
+}
+
+.head{
+    display:flex;
+    align-items: center;
+}
+
+ .button1 button{
+    background-color: lightpink;
+    color: blueviolet;
+} 
+
+.text{
+    margin-left: 120px;
+}
+
+.heading-text{
+    display:inline-block;
+    font-size: 50px;
+}
+
+.icons{
+    display:flex;
+    margin-left: 120px;
+}
+.para{
+ color:rgb(105, 100, 100);
+}
+
+.NA button, button{ 
+    background-color: #5243C0;
+    border-radius: 18px;
+    font-size:10px;
+    color:white;
+    padding:15px 25px;
+    border: none;
+}
+
+.arrow-up img{
+    width:40px;
+    margin: 20px 0 0 10px;
+}
+
+.arrow-down img{
+    width:40px;
+    margin: 20px 0 0 10px;
+}
+
+.list{
+    margin-left: 120px;
+    width:300px;
+    height:45px;
+}
+
+table{
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+table td:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+table td:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.rows tr label{
+    padding: 10px;
+}
+
+.rows tr label span{
+    position: relative;
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+}
+
+.rows tr td:nth-child(1) label img{
+    width: 25px;
+}
+
+.user-date{
+    padding:  10px;
+}
+
+.user-date img{
+    width:30px;
+}
+
+.user-date span{
+    padding-left:15px;
+}
+
+.rows{
+    margin: 60px 0 0 120px; 
+}
+.effect{
+    background-color: rgba(231, 229, 229, 0.541);
+}
+
+.effect:hover{
+    background-color: #fff;
+    box-shadow: 22px 22px 48px #d0d0d0, -22px -22px 48px #ffffff;
+}
+         
+#land-page{
+    margin-left:100px;
+    margin-top:50px;
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+}
+
